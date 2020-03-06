@@ -124,7 +124,7 @@ export class AppConfigService {
 
 export const defaultConfig: BadgrConfig = {
 	api: {
-		baseUrl: window.location.protocol + "//" + window.location.hostname + ":8000",
+		baseUrl: "http://34.67.163.193:8000",
 	},
 	features: {
 		alternateLandingRedirect: false
@@ -147,8 +147,8 @@ export const defaultConfig: BadgrConfig = {
 		privacyPolicyLink: null,
 		providedBy: null,
 		logoImg: {
-			small: require("../../../node_modules/@concentricsky/badgr-style/dist/images/os-logo-small.svg") as string,
-			desktop: require("../../../node_modules/@concentricsky/badgr-style/dist/images/os-logo-large.svg") as string,
+			small: "https://scontent-bom1-2.xx.fbcdn.net/v/t1.0-9/33160527_1832261933741600_7909744512572850176_n.png?_nc_cat=108&_nc_sid=85a577&_nc_oc=AQlj2tHi-YMP7x7BiYtDu358tsBdZEzoRjHCRVpnw4LoGkXnk2jo4T-Qhn5thtjAz7k&_nc_ht=scontent-bom1-2.xx&oh=0595f16cd6d9c5998ecfea20d13e048f&oe=5E82FD6E" as string,
+			desktop: "https://scontent-bom1-2.xx.fbcdn.net/v/t1.0-9/33160527_1832261933741600_7909744512572850176_n.png?_nc_cat=108&_nc_sid=85a577&_nc_oc=AQlj2tHi-YMP7x7BiYtDu358tsBdZEzoRjHCRVpnw4LoGkXnk2jo4T-Qhn5thtjAz7k&_nc_ht=scontent-bom1-2.xx&oh=0595f16cd6d9c5998ecfea20d13e048f&oe=5E82FD6E" as string,
 		},
 		loadingImg: {
 			// Image is inlined here to avoid any external resource loading, at the expense of a larger initial file size. We only do this for the default theme.
