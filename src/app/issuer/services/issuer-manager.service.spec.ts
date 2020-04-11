@@ -294,7 +294,7 @@ function expectAllIssuersRequest(mockBackend: MockBackend, issuers: ApiIssuer[] 
 
 export function testIssuerRefForSlug(issuerSlug: string) {
 	return {
-		"@id": `http://localhost:8000/public/issuers/${issuerSlug}`,
+		"@id": `http://localhost:8080/public/issuers/${issuerSlug}`,
 		"slug": issuerSlug
 	};
 }

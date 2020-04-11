@@ -88,7 +88,7 @@ export function buildTestRecipientBadgeCollections(): {
 			"slug": "some-badges",
 			"description": "Got together having very success.",
 			"share_hash": "d4e6da2f6528a632ee534202a4576bcd",
-			"share_url": "http://localhost:8000/earner/collections/3/d4e6da2f6528a632ee534202a4576bcd",
+			"share_url": "http://localhost:8080/earner/collections/3/d4e6da2f6528a632ee534202a4576bcd",
 			"badges": [
 				{
 					"id": 2,
@@ -154,7 +154,7 @@ export function buildTestRecipientBadgeCollections(): {
 			"slug": "small-many",
 			"description": "So few",
 			"share_hash": "8d75e742d85888077143df9c3c0f1190",
-			"share_url": "http://localhost:8000/earner/collections/4/8d75e742d85888077143df9c3c0f1190",
+			"share_url": "http://localhost:8080/earner/collections/4/8d75e742d85888077143df9c3c0f1190",
 			"badges": [
 				{
 					"id": 23,
