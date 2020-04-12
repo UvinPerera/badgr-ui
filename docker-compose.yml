@@ -10,4 +10,4 @@ services:
       - ./:/home/node/app
     expose:
       - "4200"
-    command: "npm start"
+    command: "npm install && npm start"
