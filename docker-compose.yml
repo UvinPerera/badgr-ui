@@ -3,10 +3,11 @@ services:
   node:
     image: "node:8"
     user: "node"
+    working_dir: /home/node/app
     environment:
       - NODE_ENV=production
     volumes:
-      - badgr_server_ui:/badgr_server_new_ui
+      - ./:/home/node/app
     ports:
       - "4200:4200"
     command: "npm start"
