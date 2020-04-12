@@ -8,6 +8,9 @@ services:
       - NODE_ENV=test
     volumes:
       - ./:/home/node/app
+    
     ports:
       - "4200:4200"
+    expose:
+      - "4200"
     command: "npm start"
