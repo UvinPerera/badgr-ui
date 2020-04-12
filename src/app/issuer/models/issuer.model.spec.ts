@@ -64,7 +64,7 @@ export const apiIssuer1 = {
 	},
 	"name": "American Civics 2016",
 	"slug": "american-civics-2016",
-	"image": "http://34.67.163.193:8080/media/uploads/issuers/issuer_logo_506b6e59-eb43-467f-8103-54853e083358.png",
+	"image": "http://localhost:8080/media/uploads/issuers/issuer_logo_506b6e59-eb43-467f-8103-54853e083358.png",
 	"created_by": "https://badgr.io/user/568",
 	"description": "A test issuer for a hypothetical high school civics course",
 	"staff": [
@@ -109,7 +109,7 @@ export const apiIssuer2 = {
 	},
 	"name": "Middle School Civics",
 	"slug": "middle-school-civics",
-	"image": "http://34.67.163.193:8080/media/uploads/issuers/issuer_logo_43f60f2f-9adb-4876-b74c-34da22db907d.png",
+	"image": "http://localhost:8080/media/uploads/issuers/issuer_logo_43f60f2f-9adb-4876-b74c-34da22db907d.png",
 	"created_by": "https://badgr.io/user/1",
 	"description": "A US Government and History Course for Middle Schoolers",
 	"staff": [
@@ -154,7 +154,7 @@ export const apiIssuer3 = {
 	},
 	"name": "Rockin' Badges",
 	"slug": "rockin-badges",
-	"image": "http://34.67.163.193:8080/media/uploads/issuers/issuer_logo_347eea4c-0e67-4404-9f7e-1a4c0ce346d1.png",
+	"image": "http://localhost:8080/media/uploads/issuers/issuer_logo_347eea4c-0e67-4404-9f7e-1a4c0ce346d1.png",
 	"created_by": "https://badgr.io/user/110",
 	"description": "Issuer of badges that rock!",
 	"staff": [

@@ -5,7 +5,7 @@ services:
     user: "node"
     working_dir: /home/node/app
     environment:
-      - NODE_ENV=test
+      - NODE_ENV=production
     volumes:
       - ./:/home/node/app
     expose:
