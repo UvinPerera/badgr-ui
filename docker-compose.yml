@@ -5,9 +5,9 @@ services:
     user: "node"
     working_dir: /home/node/app
     environment:
-      - NODE_ENV=production
+      - NODE_ENV=test
     volumes:
       - ./:/home/node/app
     ports:
-      - "4200:4200"
+      - "80:4200"
     command: "npm start"
