@@ -19,7 +19,7 @@ export interface BadgrConfig {
  */
 export interface ApiConfig {
 	/**
-	 * The base URL of the Badgr Server to communicate with. All API calls will be relative to this, e.g. 'http://34.67.163.193:8080'
+	 * The base URL of the Badgr Server to communicate with. All API calls will be relative to this, e.g. 'http://localhost:8080'
 	 */
 	baseUrl: string;
 
