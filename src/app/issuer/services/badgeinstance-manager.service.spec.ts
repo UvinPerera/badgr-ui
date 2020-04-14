@@ -209,7 +209,7 @@ function generateTestBadgeInstance(
 
 export function testBadgeInstanceRefForSlugs(issuerSlug: string, badgeClassSlug: string, badgeInstanceSlug: string) {
 	return {
-		"@id": `http://localhost:8080/public/assertions/${badgeInstanceSlug}`,
+		"@id": `http://34.67.163.193:8080/public/assertions/${badgeInstanceSlug}`,
 		"slug": badgeInstanceSlug,
 		"issuer": testIssuerRefForSlug(issuerSlug),
 		"badge_class": testBadgeClassRefForSlugs(issuerSlug, badgeClassSlug),

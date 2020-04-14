@@ -18,12 +18,12 @@ An Angular 2 based front end for Badgr-server. Uses TypeScript with ES6 style mo
 
 ### Run project in your browser
 
-Start angular in dev mode: `npm start`. Badgr should now be loaded in your browser. If your browser didn't start automatically, navigate to http://localhost:4200
+Start angular in dev mode: `npm start`. Badgr should now be loaded in your browser. If your browser didn't start automatically, navigate to http://34.67.163.193:4200
 
 Ensure it is communicating with the correct API (The port `badgr-server` is running on)
 
 ```
-localStorage.setItem('config', JSON.stringify({api:{baseUrl:"http://localhost:8080"}}))
+localStorage.setItem('config', JSON.stringify({api:{baseUrl:"http://34.67.163.193:8080"}}))
 ```
 
 ### Run Tests
