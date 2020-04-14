@@ -56,23 +56,23 @@ export function buildTestRecipientBadges() {
 		narrative: '',
 		evidence_items: [],
 		"json": {
-			"id": "http://34.67.163.193:8080/public/assertions/be6aa326-603b-4725-9c54-e1fde38a7b89",
+			"id": "http://0.0.0.0:8080/public/assertions/be6aa326-603b-4725-9c54-e1fde38a7b89",
 			"type": "Assertion",
 			"uid": "be6aa326-603b-4725-9c54-e1fde38a7b89",
 			"recipient": { "type": "email", "recipient": "yona@concentricsky.com" },
 			"badge": {
-				"id": "http://34.67.163.193:8080/public/badges/issuer2-is-awesome",
+				"id": "http://0.0.0.0:8080/public/badges/issuer2-is-awesome",
 				"type": "BadgeClass",
 				"name": "Issuer2 Is Awesome",
 				"description": "Much Good",
-				"image": "http://34.67.163.193:8080/public/badges/issuer2-is-awesome/image",
-				"criteria": "http://34.67.163.193:8080/public/badges/issuer2-is-awesome/criteria",
-				"criteria_url": "http://34.67.163.193:8080/public/badges/issuer2-is-awesome/criteria",
+				"image": "http://0.0.0.0:8080/public/badges/issuer2-is-awesome/image",
+				"criteria": "http://0.0.0.0:8080/public/badges/issuer2-is-awesome/criteria",
+				"criteria_url": "http://0.0.0.0:8080/public/badges/issuer2-is-awesome/criteria",
 				"criteria_text": "Some Criteria",
 				tags: ['qwerty', 'boberty', 'BanannaFanna'],
 				"alignment": [],
 				"issuer": {
-					"id": "http://34.67.163.193:8080/public/issuers/issuer-2",
+					"id": "http://0.0.0.0:8080/public/issuers/issuer-2",
 					"type": "Issuer",
 					"name": "Issuer 2",
 					"url": "http://arstechnica.com",
@@ -81,12 +81,12 @@ export function buildTestRecipientBadges() {
 				}
 			},
 			"issuedOn": "2016-09-22T17:00:33.645506",
-			"image": "http://34.67.163.193:8080/media/uploads/badges/local_badgeinstance_e44d1289-6365-453a-89b1-38c2bd6cbec4.png"
+			"image": "http://0.0.0.0:8080/media/uploads/badges/local_badgeinstance_e44d1289-6365-453a-89b1-38c2bd6cbec4.png"
 		},
-		"image": "http://34.67.163.193:8080/media/uploads/badges/local_badgeinstance_e44d1289-6365-453a-89b1-38c2bd6cbec4.png",
+		"image": "http://0.0.0.0:8080/media/uploads/badges/local_badgeinstance_e44d1289-6365-453a-89b1-38c2bd6cbec4.png",
 		"imagePreview": {
 			"type": "image",
-			"id": "http://34.67.163.193:8080/v1/earner/badges/37f14cf1-7473-4501-a2d1-7849b4fc0b5d/image?type=png"
+			"id": "http://0.0.0.0:8080/v1/earner/badges/37f14cf1-7473-4501-a2d1-7849b4fc0b5d/image?type=png"
 		},
 		"recipient_identifier": "yona@concentricsky.com",
 		"acceptance": "Accepted"
@@ -97,42 +97,42 @@ export function buildTestRecipientBadges() {
 		narrative: '',
 		evidence_items: [],
 		"json": {
-			"id": "http://34.67.163.193:8080/public/assertions/96efe8d4-253f-49b4-aab7-30109101e2b8",
+			"id": "http://0.0.0.0:8080/public/assertions/96efe8d4-253f-49b4-aab7-30109101e2b8",
 			"type": "Assertion",
 			"uid": "96efe8d4-253f-49b4-aab7-30109101e2b8",
 			"recipient": { "type": "email", "recipient": "yona@concentricsky.com" },
 			"badge": {
-				"id": "http://34.67.163.193:8080/public/badges/science-ribbon",
+				"id": "http://0.0.0.0:8080/public/badges/science-ribbon",
 				"type": "BadgeClass",
 				"name": "Science Ribbon",
 				"description": "Science all the things",
-				"image": "http://34.67.163.193:8080/public/badges/science-ribbon/image",
-				"criteria": "http://34.67.163.193:8080/public/badges/science-ribbon/criteria",
-				"criteria_url": "http://34.67.163.193:8080/public/badges/science-ribbon/criteria",
+				"image": "http://0.0.0.0:8080/public/badges/science-ribbon/image",
+				"criteria": "http://0.0.0.0:8080/public/badges/science-ribbon/criteria",
+				"criteria_url": "http://0.0.0.0:8080/public/badges/science-ribbon/criteria",
 				"criteria_text": "Some Criteria",
 				tags: ['qwerty', 'boberty', 'BanannaFanna'],
 				"alignment": [],
 				"issuer": {
-					"id": "http://34.67.163.193:8080/public/issuers/big-image-issuer",
+					"id": "http://0.0.0.0:8080/public/issuers/big-image-issuer",
 					"type": "Issuer",
 					"name": "Big Image Issuer",
 					"url": "http://arstechnica.com",
 					"description": "Test Issuer for https://jira.concentricsky.com/browse/BS-1162",
-					"image": "http://34.67.163.193:8080/public/issuers/big-image-issuer/image",
+					"image": "http://0.0.0.0:8080/public/issuers/big-image-issuer/image",
 					"email": "yona-badgr-issuer1@mailinator.com"
 				}
 			},
 			"issuedOn": "2016-09-22T19:06:09.264757",
-			"image": "http://34.67.163.193:8080/media/uploads/badges/local_badgeinstance_5ca42b9c-0f15-453b-943a-377984a93663.png"
+			"image": "http://0.0.0.0:8080/media/uploads/badges/local_badgeinstance_5ca42b9c-0f15-453b-943a-377984a93663.png"
 		},
-		"image": "http://34.67.163.193:8080/public/issuers/big-image-issuer/image",
+		"image": "http://0.0.0.0:8080/public/issuers/big-image-issuer/image",
 		"imagePreview": {
 			"type": "image",
-			"id": "http://34.67.163.193:8080/v1/earner/badges/4dacd00e-2d49-4dab-aae4-f77b9fb83fd1/image?type=png"
+			"id": "http://0.0.0.0:8080/v1/earner/badges/4dacd00e-2d49-4dab-aae4-f77b9fb83fd1/image?type=png"
 		},
 		"issuerImagePreview": {
 			"type": "image",
-			"id": "http://34.67.163.193:8080/v1/earner/issuer/big-image-issuer/image?type=png"
+			"id": "http://0.0.0.0:8080/v1/earner/issuer/big-image-issuer/image?type=png"
 		},
 		"recipient_identifier": "yona@concentricsky.com",
 		"acceptance": "Accepted"
@@ -143,43 +143,43 @@ export function buildTestRecipientBadges() {
 		narrative: '',
 		evidence_items: [],
 		"json": {
-			"id": "http://34.67.163.193:8080/public/assertions/8e7b6a96-1e4b-43e5-abf6-b30b71d29b6e",
+			"id": "http://0.0.0.0:8080/public/assertions/8e7b6a96-1e4b-43e5-abf6-b30b71d29b6e",
 			"type": "Assertion",
 			"uid": "8e7b6a96-1e4b-43e5-abf6-b30b71d29b6e",
 			"recipient": { "type": "email", "recipient": "yona@concentricsky.com" },
 			"badge": {
-				"id": "http://34.67.163.193:8080/public/badges/foo-badge",
+				"id": "http://0.0.0.0:8080/public/badges/foo-badge",
 				"type": "BadgeClass",
 				"name": "Foo Badge",
 				"description": "A new badge, yo",
-				"image": "http://34.67.163.193:8080/public/badges/foo-badge/image",
+				"image": "http://0.0.0.0:8080/public/badges/foo-badge/image",
 				"criteria": "http://nowhere.com",
 				"criteria_url": "http://nowhere.com",
 				"criteria_text": "Some Criteria",
 				tags: ['qwerty', 'boberty', 'BanannaFanna'],
 				"alignment": [],
 				"issuer": {
-					"id": "http://34.67.163.193:8080/public/issuers/big-image-issuer",
+					"id": "http://0.0.0.0:8080/public/issuers/big-image-issuer",
 					"type": "Issuer",
 					"name": "Big Image Issuer",
 					"url": "http://arstechnica.com",
 					"description": "Test Issuer for https://jira.concentricsky.com/browse/BS-1162",
-					"image": "http://34.67.163.193:8080/public/issuers/big-image-issuer/image",
+					"image": "http://0.0.0.0:8080/public/issuers/big-image-issuer/image",
 					"email": "yona-badgr-issuer1@mailinator.com"
 				}
 			},
 			"issuedOn": "2016-09-22T15:56:41.838280",
-			"image": "http://34.67.163.193:8080/media/uploads/badges/local_badgeinstance_7c1973cd-c220-4c4b-8fa2-5ac798ebb7b4.png",
+			"image": "http://0.0.0.0:8080/media/uploads/badges/local_badgeinstance_7c1973cd-c220-4c4b-8fa2-5ac798ebb7b4.png",
 			"evidence": "http://nowhere.com"
 		},
-		"image": "http://34.67.163.193:8080/media/uploads/badges/local_badgeinstance_7c1973cd-c220-4c4b-8fa2-5ac798ebb7b4.png",
+		"image": "http://0.0.0.0:8080/media/uploads/badges/local_badgeinstance_7c1973cd-c220-4c4b-8fa2-5ac798ebb7b4.png",
 		"imagePreview": {
 			"type": "image",
-			"id": "http://34.67.163.193:8080/v1/earner/badges/56e73559-2205-40e8-b3e2-be24adf9a1f5/image?type=png"
+			"id": "http://0.0.0.0:8080/v1/earner/badges/56e73559-2205-40e8-b3e2-be24adf9a1f5/image?type=png"
 		},
 		"issuerImagePreview": {
 			"type": "image",
-			"id": "http://34.67.163.193:8080/v1/earner/issuer/big-image-issuer/image?type=png"
+			"id": "http://0.0.0.0:8080/v1/earner/issuer/big-image-issuer/image?type=png"
 		},
 		"recipient_identifier": "yona@concentricsky.com",
 		"acceptance": "Accepted"
