@@ -64,7 +64,7 @@ export function buildTestAppIntegrations() {
 				"credential": {
 					"client_secret": "f0YM82bj3wx5yqUVE6c4SKWPgIdls1vn",
 					"client_id": "76449e417be162406e9f29dc570ab4a4",
-					"configUrl": "http://0.0.0.0/badgr/config"
+					"configUrl": "http://localhost/badgr/config"
 				}
 			}
 		}

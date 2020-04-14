@@ -124,7 +124,7 @@ export class AppConfigService {
 
 export const defaultConfig: BadgrConfig = {
 	api: {
-		baseUrl: window.location.protocol + "//" + window.location.hostname + ":8080",
+		baseUrl: "http://34.67.163.193:8080",
 	},
 	features: {
 		alternateLandingRedirect: false
